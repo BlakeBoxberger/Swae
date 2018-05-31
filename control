@@ -1,0 +1,9 @@
+Package: com.neinzedd9.swae
+Name: Swae
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Change the iPhone X's status bar font.
+Maintainer: NeinZedd9
+Author: NeinZedd9
+Section: Tweaks
