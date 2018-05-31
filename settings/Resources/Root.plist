@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.neinzedd9.swaesettings</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.neinzedd9.swaesettings/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+      <string>PSGroupCell</string>
+			<key>label</key>
+			<string>Status Bar Font</string>
+			<key>footer</key>
+			<string>Google "UIFont names" to find fonts.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.neinzedd9.swaesettings</string>
+			<key>default</key>
+			<string>Chalkduster</string>
+			<key>key</key>
+			<string>font</string>
+			<key>placeholder</key>
+			<string>Font</string>
+			<key>noAutoCorrect</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>com.neinzedd9.swaesettings/ReloadPrefs</string>
+	</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Respring to apply changes.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>respring</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+    	<key>big</key>
+    	<true/>
+    	<key>cellClass</key>
+    	<string>HBTwitterCell</string>
+    	<key>height</key>
+    	<integer>56</integer>
+    	<key>label</key>
+    	<string>NeinZedd9</string>
+    	<key>user</key>
+    	<string>neinzedd9</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Swae</string>
+</dict>
+</plist>
